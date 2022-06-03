@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"module": "node16",
+		// node16 not working with go to source definition
+		// "moduleResolution": "node",
+		"moduleResolution": "node16",
+		"moduleDetection": "force",
+		"allowSyntheticDefaultImports": true
+	}
+}
